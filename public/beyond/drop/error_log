@@ -1,0 +1,2 @@
+[24-May-2019 15:53:03 UTC] PHP Warning:  move_uploaded_file(uploads/Design-Thinking-Edited.jpg): failed to open stream: No such file or directory in /home/afreelancer/public_html/business/drop/upload.php on line 6
+[24-May-2019 15:53:03 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php49FyaU' to 'uploads/Design-Thinking-Edited.jpg' in /home/afreelancer/public_html/business/drop/upload.php on line 6

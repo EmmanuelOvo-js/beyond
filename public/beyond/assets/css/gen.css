@@ -1,0 +1,108 @@
+
+.header-connect {
+    background: #333;
+}
+.header-call p {color:#fff!important;}
+.header-social ul li a {color:#fff!important;}
+.header-social ul {padding-top:0px!important;}
+.navbar-brand {width:230px;height:auto;padding:0px!important;}
+.main-nav {padding-top:0px!important;}
+.navbar-nav.navbar-right:last-child {margin-top:10px!important;}
+.button.navbar-right {margin-top:10px!important;}
+.navbar {min-height:60px;}
+.navbar .container {padding-top:3px;padding-bottom:5px;}
+.navbar-default .navbar-nav > li > a::after {background-color:#333!important;}
+.nav-button.login {background:#333!important;}
+.nav-button:hover {background:#7E929B!important;}
+
+/*FIRST ROW*/
+.slider-area { background-image: url(https://i1.wp.com/www.innovativewealth.com/wp-content/uploads/2015/05/Self-directed-IRA-Real-Estate.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+ 
+background-blend-mode: overlay;
+background-size:cover;
+background-position:top center;}
+
+.slider-content h2 {font-size: 60px;margin-bottom:20px;text-transform:uppercase;color:#fff;font-weight:700;}
+.slider-content p {font-size:30px;color:#fff;}
+.search-btn, .toggle-btn {background:#98A8AF;}
+.slider-selection {background:#98A8AF;}
+
+/*BODY*/
+.page-title h2 {font-size:40px;font-weight:400;color:#7E929B;}
+.box-two {border: 1px solid #ddd;box-shadow:none!important;border-radius: 10px;width:280px;height:250px;}
+.proerty-th .proerty-item .item-thumb img {width:280px;height:200px;}
+.proerty-th .proerty-item .item-entry {padding:8px;text-align: center;background:#333;border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.item-entry a {color:#fff;}
+.item-entry a:hover {color:#fff;opacity:0.5;}
+.proerty-th .proerty-item .item-entry h5::after {display:none;}
+.dot-hr {display:none;}
+
+/*FOOTER*/
+.footer-area {background:#7E929B!important;}
+.footer-area, .footer-area p, .footer-area a {color:#fff!important;}
+.footer ul li i, .social ul li a i {color:#fff;}
+.social ul li a:hover i {color:#333!important;}
+.footer-menu li {border-bottom:1px solid #fff;}
+.footer {background:none;}
+.footer h4 {color: #fff;border-bottom: 2px solid #333;}
+.footer .subscribe {background:#333;border:none;}
+.news-letter .form-control::placeholder {color:#000!important;}
+.footer .subscribe:hover {opacity:0.5;}
+.footer-title-line {background:#333;}
+.footer-copy {background:#333;}
+
+/*LOGIN & REGISTRATION*/
+.login-blocks, .register-blocks {width:50%!important;margin:auto;display:block;float:none;}
+.login-blocks h2, .register-blocks h2 {border-bottom: 2px solid #333;}
+.btn, .btn-default {background:#333;color:#fff;transition:1s ease;}
+.btn:hover, .btn-default:hover {background:#80939C;color:#000;}
+.login-social {background:none;color:#80939C;text-align:center;display:block;text-decoration:underline;margin-top:0px;font-weight:normal;}
+.login-social:hover {background:none;}
+
+/*DASHBOARD*/
+.formb {text-align:left!important;padding:15px;background:white;width:75%;margin:auto;display:block;}
+.formb h2 {font-family: inherit;border-bottom:2px solid #333;display:inline-block;margin-bottom:15px;background:transparent none repeat scroll 0% 0%;font-size:20px;line-height:30px;}
+.formb label, .formb input[type=radio] {font-family:'Open Sans',sans-serif;font-weight:300;font-size:14px;line-height:28px;color:#777;display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700;}
+.formb label.rcontainer {display:block;position:relative;padding-left:35px;margin-bottom:12px;cursor:pointer;font-size:14px;user-select: none;}
+.formb label.rcontainer input[type=radio] {position:absolute;opacity:0;cursor:pointer;}
+.formb span.checkmark {position:absolute;top:0;left:0;height:25px;width:25px;background-color:#eee;border-radius:50%;display:none;}            
+.formb label.rcontainer:hover input ~ .checkmark {background-color:#ccc;}
+.formb label.rcontainer input:checked ~ .checkmark {background-color:#333!important;}
+.formb span.checkmark:after {content:"";position:absolute;display:none;}
+.rcontainer input:checked ~ .checkmark:after {display:block;}
+.formb label.rcontainer .checkmark:after {top:9px;left:9px;width:8px;height:8px;border-radius:50%;background:white;}
+.formb input[type=text], .formb input[type=url] {display:block;width:100%;height:44px;padding:0px 12px;font-size:13px;line-height:1.4;color:#838383;background-color:#FFF;background-image:none;border:1px solid #DADADA;border-radius:0px;box-shadow:0px 1px 1px rgba(179, 179, 179, 0.1) inset;}            
+.formb input[type=number] {display:block;width:40%;height:44px;padding:0px 12px;font-size:13px;line-height:1.4;color:#838383;background-color:#FFF;background-image:none;border:1px solid #DADADA;border-radius:0px;box-shadow:0px 1px 1px rgba(179, 179, 179, 0.1) inset;}       
+.formb input[type=number].er, .formb input[type=text].er {float:left;width:20%!important;}
+.formb textarea {display:block;width:100%;padding:10px 12px;font-size:13px;line-height:1.4;color:#838383;background-color:#FFF;background-image:none;border:1px solid #DADADA;border-radius:0px;box-shadow:0px 1px 1px rgba(179, 179, 179, 0.1) inset;}            
+.formb select {display:block;width:50%;padding:10px 12px;font-size:13px;line-height:1.4;color:#838383;background-color:#FFF;background-image:none;border:1px solid #DADADA;border-radius:0px;box-shadow:0px 1px 1px rgba(179, 179, 179, 0.1) inset;} 
+.formb select#y, .formb select#m {float:left;width:30%;padding:10px 12px;font-size:13px;line-height:1.4;color:#838383;background-color:#FFF;background-image:none;border:1px solid #DADADA;border-radius:0px;box-shadow:0px 1px 1px rgba(179, 179, 179, 0.1) inset;} 
+.formb select.m, .formb input[type=number].m, .formb input[type=text].m {margin-left:10px;}
+.formb input[type=submit] {background:#333!important;padding:15px;color:#fff;border-radius:5px;width:20%;}
+.formb input[type=submit]:hover {background:#7E929B!important;}
+.profiel-container {padding:0px!important;width:75%;}
+
+/*RESPONSIVE*/
+@media all and (min-width: 320px) and (max-width: 399px) {
+    .box-two {width:340px;height:300px;margin-top:20px;}
+    .navbar-brand img {width: 200px;padding-left:5px;}
+    .login-blocks, .register-blocks {width:100%!important;}
+    #stitle {font-size:30px!important;}
+    #shtitle {font-size:25px;}
+    .page-title h2 {margin-top:50px;}
+    .formb, .profiel-container {width:100%;}
+    .formb input[type=number].er, .formb input[type=text].er {width:30%!important;}
+    .formb input[type=submit] {width:100%;}
+}
+
+@media all and (min-width: 400px) and (max-width: 500px) {
+    .box-two {width:396px;height:300px;margin-top:20px!important;}
+    .navbar-brand img {width: 200px;padding-left:5px;}
+    .login-blocks, .register-blocks {width:100%!important;}
+    #stitle {font-size:30px!important;}
+    #shtitle {font-size:25px;}
+    .page-title h2 {margin-top:50px;}
+    .formb, .profiel-container {width:100%;}
+    .formb input[type=number].er, .formb input[type=text].er {width:30%!important;}
+    .formb input[type=submit] {width:100%;}
+}
